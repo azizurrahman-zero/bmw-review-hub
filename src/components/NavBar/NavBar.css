@@ -1,0 +1,9 @@
+.nav-bar {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333333;
+}
