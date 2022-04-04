@@ -1,0 +1,11 @@
+.img-section img {
+    border-radius: 100%;
+    width: 150px;
+}
+
+.rating {
+    background-color: #C3EDAF;
+    position: relative;
+    display: inline;
+    left: -97px;
+}
