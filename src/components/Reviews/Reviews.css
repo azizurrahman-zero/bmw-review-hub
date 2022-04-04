@@ -1,0 +1,8 @@
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85%;
+    margin: auto;
+    gap: 40px;
+    padding: 100px 0;
+}

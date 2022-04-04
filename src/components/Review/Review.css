@@ -1,11 +1,44 @@
-.img-section img {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&family=Roboto&display=swap');
+
+.review {
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 20px 16px;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review .img-section img {
     border-radius: 100%;
     width: 150px;
 }
 
 .rating {
-    background-color: #C3EDAF;
-    position: relative;
-    display: inline;
-    left: -97px;
+    background-color: #1EA7FD;
+    color: white;
+    font-weight: 600;
+    padding: 2px 18px;
+    border-radius: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+}
+
+.text-section .reviewer {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 22px;
+    margin: 12px 0;
+}
+
+.text-section .review-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #6C6B6B;
 }

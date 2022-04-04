@@ -1,20 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #C3EDAF;
+    background-color: #F6F9FC;
     font-family: 'Poppins', sans-serif;
     padding: 15px 0;
 }
 
 .logo-text {
     margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo-text .colored-text {
+    color: #1EA7FD;
 }
 
 .logo-text a {
     text-decoration: none;
     color: #333333;
-    font-size: 34px;
+    font-size: 48px;
 }

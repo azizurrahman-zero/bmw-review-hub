@@ -1,6 +1,5 @@
 import React from 'react';
 import './Main.css'
-import '../../utilities.css'
 
 const Main = () => {
     return (
@@ -15,7 +14,7 @@ const Main = () => {
                 <a href="https://www.bmw.com.bd/">More Details</a>
             </div>
             <div className="img-section">
-                <img src="/images/main-section.png" alt="" />
+                <img className='main-image' src="/images/main-section.png" alt="" />
             </div>
         </div>
     );

@@ -6,12 +6,15 @@ import './Review.css'
 const Review = ({ review }) => {
     const { picture, rating, name, reviewText } = review;
     return (
-        <div>
+        <div className='review'>
             <div className="img-section">
                 <img src={picture} alt={name} />
-                <p className='rating'><FontAwesomeIcon icon={faStar}></FontAwesomeIcon></p>
+                <small className='rating'>{rating} <FontAwesomeIcon icon={faStar}></FontAwesomeIcon></small>
             </div>
-            <div className="text-section"></div>
+            <div className="text-section">
+                <h3 className='reviewer'>{name}</h3>
+                <p className='review-text'>{reviewText}</p>
+            </div>
         </div>
     );
 };
