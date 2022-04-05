@@ -4,17 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -1px;
+    margin-top: 60px;
 }
 
-.about .desktop-img {
-    display: block;
-}
-
-.about .mobile-img {
-    display: none;
-    width: 240px;
-    margin-top: -8px;
+.about img {
+    width: 55%;
 }
 
 .about a {
@@ -29,12 +23,12 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .about .desktop-img {
-        display: none;
+    .about {
+        margin-top: 40px;
     }
 
-    .about .mobile-img {
-        display: block;
+    .about img {
+        width: 90%;
     }
 
     .about a {
