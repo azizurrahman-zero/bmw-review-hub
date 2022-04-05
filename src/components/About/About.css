@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 65px;
+    margin-top: -1px;
 }
 
 .about .desktop-img {
@@ -13,6 +13,8 @@
 
 .about .mobile-img {
     display: none;
+    width: 240px;
+    margin-top: -8px;
 }
 
 .about a {
@@ -23,7 +25,7 @@
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    margin-bottom: 35px;
+    margin: 35px 0;
 }
 
 @media only screen and (max-width: 576px) {
