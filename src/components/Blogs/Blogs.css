@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&family=Source+Code+Pro&display=swap');
 
 .blogs {
-    background-color: #D3ECA7;
+    background-color: #F6F9FC;
     border-radius: 20px;
     font-family: Roboto, sans-serif;
     margin: 50px auto;
     padding: 20px 30px;
     width: 85%;
     color: #333333;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
 }
 
 .blogs h3 {
