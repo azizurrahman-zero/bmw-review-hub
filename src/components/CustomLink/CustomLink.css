@@ -1,0 +1,8 @@
+.active {
+    padding: 10px 26px;
+    background: #1EA7FD;
+    border-radius: 30px;
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
