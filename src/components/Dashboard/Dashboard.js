@@ -4,7 +4,7 @@ import useData from '../../hooks/useData';
 import './Dashboard.css'
 
 const Dashboard = () => {
-    const [data, setData] = useData();
+    const [data] = useData();
     return (
         <div className='dashboard'>
 

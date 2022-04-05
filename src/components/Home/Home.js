@@ -5,7 +5,7 @@ import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     return (
         <div className='home'>
             <div className='main-section'>
