@@ -24,37 +24,40 @@ const Blogs = () => {
             <div className="blog">
                 <h3>inline vs block vs inline-block</h3>
                 <p>inline, block and inline-block, these are CSS display property values. Also, HTML elements are divided by these three parts. Such as: Inline Element, Block Element &#38; Inline-block Element.</p>
-                <table className='table'>
-                    <thead>
-                        <tr>
-                            <th>inline</th>
-                            <th>block</th>
-                            <th>inline-block</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Only occupy the width that element requires</td>
-                            <td>Occupy the full width</td>
-                            <td>Just like inline, occupy the required width</td>
-                        </tr>
-                        <tr>
-                            <td>height &#38; width isn't changeable</td>
-                            <td>height &#38; width can be changed</td>
-                            <td>height &#38; width can be changed like block</td>
-                        </tr>
-                        <tr>
-                            <td>Space can changed only in left &#38; right side</td>
-                            <td>Space can changed in all side</td>
-                            <td>Space can changed in all side</td>
-                        </tr>
-                        <tr>
-                            <td>Ex: <span className='code'>&lt;a&gt;</span>, <span className='code'>&lt;b&gt;</span>, <span className='code'>&lt;br&gt;</span>, <span className='code'>&lt;span&gt;</span> etc</td>
-                            <td>Ex: <span className='code'>&lt;div&gt;</span>, <span className='code'>&lt;hr&gt;</span>, <span className='code'>&lt;p&gt;</span>, <span className='code'>&lt;nav&gt;</span> etc</td>
-                            <td>-</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div className="table-section">
+                    <table className='table'>
+                        <thead>
+                            <tr>
+                                <th>inline</th>
+                                <th>block</th>
+                                <th>inline-block</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Only occupy the width that element requires</td>
+                                <td>Occupy the full width</td>
+                                <td>Just like inline, occupy the required width</td>
+                            </tr>
+                            <tr>
+                                <td>height &#38; width isn't changeable</td>
+                                <td>height &#38; width can be changed</td>
+                                <td>height &#38; width can be changed like block</td>
+                            </tr>
+                            <tr>
+                                <td>Space can changed only in left &#38; right side</td>
+                                <td>Space can changed in all side</td>
+                                <td>Space can changed in all side</td>
+                            </tr>
+                            <tr>
+                                <td>Ex: <span className='code'>&lt;a&gt;</span>, <span className='code'>&lt;b&gt;</span>, <span className='code'>&lt;br&gt;</span>, <span className='code'>&lt;span&gt;</span> etc</td>
+                                <td>Ex: <span className='code'>&lt;div&gt;</span>, <span className='code'>&lt;hr&gt;</span>, <span className='code'>&lt;p&gt;</span>, <span className='code'>&lt;nav&gt;</span> etc</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <small className='scroll-message'>*Scroll left to right to see full table.</small>
             </div>
         </div>
     );

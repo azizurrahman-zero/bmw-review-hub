@@ -12,7 +12,7 @@
 }
 
 .blogs h3 {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 26px;
 }
 
@@ -33,6 +33,10 @@
     margin: auto;
 }
 
+.table-section {
+    overflow-x: auto;
+}
+
 .table {
     border-collapse: collapse;
     margin: 30px auto;
@@ -51,4 +55,68 @@
     font-size: 18px;
     font-weight: 400;
     padding: 10px 30px;
+}
+
+.scroll-message {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    .blogs {
+        width: auto;
+        margin: 25px 10px;
+    }
+
+    .blogs h3 {
+        font-size: 20px;
+        margin: 12px 0;
+    }
+
+    .blogs p {
+        font-size: 16px;
+    }
+
+    .code {
+        font-size: 16px;
+    }
+
+    .tag-list {
+        width: auto;
+    }
+
+    .table {
+        margin: 20px auto;
+    }
+
+    .table thead th {
+        padding: 4px 0;
+        font-size: 16px;
+    }
+
+    .table tbody td {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .scroll-message {
+        visibility: visible;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .table {
+        width: 526px;
+    }
+
+    .tag-list {
+        grid-template-columns: 1fr;
+        margin: 8px 0;
+    }
+
+    .tag-list ul {
+        margin: 0;
+    }
 }
