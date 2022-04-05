@@ -7,6 +7,14 @@
     padding-bottom: 60px;
 }
 
+.not-found .desktop-img {
+    display: block;
+}
+
+.not-found .mobile-img {
+    display: none;
+}
+
 .not-found a {
     text-decoration: none;
     padding: 10px 26px;
@@ -16,4 +24,20 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-top: 35px;
+}
+
+@media only screen and (max-width: 576px) {
+    .not-found .desktop-img {
+        display: none;
+    }
+
+    .not-found .mobile-img {
+        display: block;
+    }
+
+    .not-found a {
+        padding: 4px 20px;
+        border-radius: 14px;
+        font-size: 14px;
+    }
 }
