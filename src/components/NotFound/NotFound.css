@@ -33,11 +33,14 @@
 
     .not-found .mobile-img {
         display: block;
+        width: 270px;
+        margin-top: -20px;
     }
 
     .not-found a {
         padding: 4px 20px;
         border-radius: 14px;
         font-size: 14px;
+        margin-top: 0;
     }
 }
