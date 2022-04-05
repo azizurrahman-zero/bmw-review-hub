@@ -54,3 +54,15 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+@media only screen and (max-width: 576px) {
+    .main-section {
+        grid-template-columns: 1fr;
+        width: 85%;
+        margin: 18px auto;
+    }
+
+    .text-section .tag-line {
+        font-size: 26px;
+    }
+}

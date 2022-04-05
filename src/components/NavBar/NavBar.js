@@ -2,9 +2,9 @@ import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import './NavBar.css'
 
-const NavBar = () => {
+const NavBar = ({ open }) => {
     return (
-        <nav className='nav-bar'>
+        <nav className={open ? "show" : "hide"}>
             <CustomLink to="/">Home</CustomLink>
             <CustomLink to="/reviews">Reviews</CustomLink>
             <CustomLink to="/dashboard">Dashboard</CustomLink>

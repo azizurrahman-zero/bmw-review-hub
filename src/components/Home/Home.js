@@ -12,9 +12,7 @@ const Home = () => {
                 <div className="text-section">
                     <h1 className='tag-line'>If you want to be happy for a lifetime, ride a <span className='colored-text'>BMW.</span></h1>
                     <p className='description'>
-                        The performance to go fast. The technology to go far.
-                        <br />
-                        BMW, Where performance and sustainability go hand in hand.
+                        The performance to go fast. The technology to go far. BMW, Where performance and sustainability go hand in hand.
                     </p>
                     <a href="https://www.bmw.com.bd/">More Details</a>
                 </div>

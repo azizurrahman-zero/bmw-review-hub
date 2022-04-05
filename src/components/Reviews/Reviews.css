@@ -6,3 +6,9 @@
     gap: 40px;
     padding: 40px 0;
 }
+
+@media only screen and (max-width: 576px) {
+    .reviews {
+        grid-template-columns: 1fr;
+    }
+}

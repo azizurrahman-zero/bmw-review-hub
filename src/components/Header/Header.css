@@ -23,3 +23,31 @@
     color: #333333;
     font-size: 48px;
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-icon {
+    visibility: hidden;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .logo-text a {
+        font-size: 26px;
+    }
+
+    .menu-icon {
+        visibility: visible;
+    }
+}
